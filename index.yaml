@@ -3,12 +3,22 @@ entries:
   argocd-test-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-04-03T17:30:04.7590139+08:00"
+    created: "2022-04-03T17:56:34.2976542+08:00"
+    description: A Helm chart for Kubernetes
+    digest: ba39201b760aecf845676f20b58e5f679fab9ad7f8efd459c2be92c687e10146
+    name: argocd-test-chart
+    type: application
+    urls:
+    - https://ytghost.github.io/argocd-test-chart/releases/releases/argocd-test-chart-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-04-03T17:56:34.2974648+08:00"
     description: A Helm chart for Kubernetes
     digest: fc03b636557b5466a1366ec884c06840bb4b422778b5c93255fec5536e6a2ae8
     name: argocd-test-chart
     type: application
     urls:
-    - https://ytghost.github.io/argocd-test-chart/argocd-test-chart-0.1.0.tgz
+    - https://ytghost.github.io/argocd-test-chart/releases/releases/argocd-test-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2022-04-03T17:30:04.7587509+08:00"
+generated: "2022-04-03T17:56:34.2971564+08:00"

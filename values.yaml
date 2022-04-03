@@ -5,7 +5,12 @@
 replicaCount: 1
 image:
   repository: registry.hub.docker.com/ythihia/argocd-test
-  pullPolicy: IfNotPresent
-  tag: v1
+  pullPolicy: 
+    - IfNotPresent
+    - Always
+    - Never
+  tag:
+    - v1
+    - v2
 
 
